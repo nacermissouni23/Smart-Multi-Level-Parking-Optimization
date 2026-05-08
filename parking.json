@@ -1,0 +1,930 @@
+{
+  "floors": [
+    {
+      "floor_id": 1,
+      "total_spots": 40,
+      "num_small_spots": 16,
+      "num_large_spots": 24,
+      "num_ev_spots": 12,
+      "elevator_position": "Center-Bottom"
+    },
+    {
+      "floor_id": 2,
+      "total_spots": 30,
+      "num_small_spots": 18,
+      "num_large_spots": 12,
+      "num_ev_spots": 6,
+      "elevator_position": "Center-Bottom"
+    },
+    {
+      "floor_id": 3,
+      "total_spots": 30,
+      "num_small_spots": 24,
+      "num_large_spots": 6,
+      "num_ev_spots": 2,
+      "elevator_position": "Center-Bottom"
+    }
+  ],
+  "spots": [
+    {
+      "spot_id": 1,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": true,
+      "distance_to_exit": 10.4,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 2,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": true,
+      "distance_to_exit": 9.2,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 3,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": true,
+      "distance_to_exit": 8.0,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 4,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": true,
+      "distance_to_exit": 6.8,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 5,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": true,
+      "distance_to_exit": 5.6,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 6,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": true,
+      "distance_to_exit": 5.6,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 7,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": true,
+      "distance_to_exit": 6.8,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 8,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": true,
+      "distance_to_exit": 8.0,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 9,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": true,
+      "distance_to_exit": 9.2,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 10,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": true,
+      "distance_to_exit": 10.4,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 11,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 15.9,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 12,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 14.7,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 13,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 13.5,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 14,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 12.3,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 15,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": true,
+      "distance_to_exit": 11.1,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 16,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": true,
+      "distance_to_exit": 11.1,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 17,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 12.3,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 18,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 13.5,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 19,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 14.7,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 20,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 15.9,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 21,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 21.4,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 22,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 20.2,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 23,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 19.0,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 24,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 17.8,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 25,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 16.6,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 26,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 16.6,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 27,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 17.8,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 28,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 19.0,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 29,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 20.2,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 30,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 21.4,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 31,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 26.9,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 32,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 25.7,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 33,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 24.5,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 34,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 23.3,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 35,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 22.1,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 36,
+      "floor": 1,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 22.1,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 37,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 23.3,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 38,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 24.5,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 39,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 25.7,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 40,
+      "floor": 1,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 26.9,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 41,
+      "floor": 2,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 10.4,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 42,
+      "floor": 2,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 9.2,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 43,
+      "floor": 2,
+      "size": "large",
+      "is_ev_spot": true,
+      "distance_to_exit": 8.0,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 44,
+      "floor": 2,
+      "size": "large",
+      "is_ev_spot": true,
+      "distance_to_exit": 6.8,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 45,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": true,
+      "distance_to_exit": 5.6,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 46,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": true,
+      "distance_to_exit": 5.6,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 47,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": true,
+      "distance_to_exit": 6.8,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 48,
+      "floor": 2,
+      "size": "large",
+      "is_ev_spot": true,
+      "distance_to_exit": 8.0,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 49,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 9.2,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 50,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 10.4,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 51,
+      "floor": 2,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 15.9,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 52,
+      "floor": 2,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 14.7,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 53,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 13.5,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 54,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 12.3,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 55,
+      "floor": 2,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 11.1,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 56,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 11.1,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 57,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 12.3,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 58,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 13.5,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 59,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 14.7,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 60,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 15.9,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 61,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 21.4,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 62,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 20.2,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 63,
+      "floor": 2,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 19.0,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 64,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 17.8,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 65,
+      "floor": 2,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 16.6,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 66,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 16.6,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 67,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 17.8,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 68,
+      "floor": 2,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 19.0,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 69,
+      "floor": 2,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 20.2,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 70,
+      "floor": 2,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 21.4,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 71,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 10.4,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 72,
+      "floor": 3,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 9.2,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 73,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 8.0,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 74,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 6.8,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 75,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": true,
+      "distance_to_exit": 5.6,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 76,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": true,
+      "distance_to_exit": 5.6,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 77,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 6.8,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 78,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 8.0,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 79,
+      "floor": 3,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 9.2,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 80,
+      "floor": 3,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 10.4,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 81,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 15.9,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 82,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 14.7,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 83,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 13.5,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 84,
+      "floor": 3,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 12.3,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 85,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 11.1,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 86,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 11.1,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 87,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 12.3,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 88,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 13.5,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 89,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 14.7,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 90,
+      "floor": 3,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 15.9,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 91,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 21.4,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 92,
+      "floor": 3,
+      "size": "large",
+      "is_ev_spot": false,
+      "distance_to_exit": 20.2,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 93,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 19.0,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 94,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 17.8,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 95,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 16.6,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 96,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 16.6,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 97,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 17.8,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 98,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 19.0,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 99,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 20.2,
+      "occupied": false,
+      "occupied_until": 0
+    },
+    {
+      "spot_id": 100,
+      "floor": 3,
+      "size": "small",
+      "is_ev_spot": false,
+      "distance_to_exit": 21.4,
+      "occupied": false,
+      "occupied_until": 0
+    }
+  ]
+}
