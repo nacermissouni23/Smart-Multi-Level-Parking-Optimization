@@ -1,4 +1,7 @@
 {
+  "parking_id": 10,
+  "total_capacity": 100,
+  "num_floors": 3,
   "floors": [
     {
       "floor_id": 1,
@@ -6,7 +9,7 @@
       "num_small_spots": 16,
       "num_large_spots": 24,
       "num_ev_spots": 12,
-      "elevator_position": "Center-Bottom"
+      "elevator_position": "Center-Top"
     },
     {
       "floor_id": 2,
@@ -14,7 +17,7 @@
       "num_small_spots": 18,
       "num_large_spots": 12,
       "num_ev_spots": 6,
-      "elevator_position": "Center-Bottom"
+      "elevator_position": "Center-Top"
     },
     {
       "floor_id": 3,
@@ -22,7 +25,7 @@
       "num_small_spots": 24,
       "num_large_spots": 6,
       "num_ev_spots": 2,
-      "elevator_position": "Center-Bottom"
+      "elevator_position": "Center-Top"
     }
   ],
   "spots": [
