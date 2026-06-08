@@ -1,58 +1,51 @@
 # Smart Multi-Level Parking Optimization
 
-## Overview
+Project 4 — *Combinatorial Optimization & Metaheuristics*
 
-This project focuses on optimizing the allocation of vehicles in a multi-level parking system.
+Cars arrive at a multi-level car park through the day and each must be given a bay,
+respecting **size** (a large car needs a large bay), **EV charging** (electric cars prefer a
+charger) and **staff preference** (staff prefer bays near the exit). The objective is to
+**park as many cars as possible** and, among parked cars, **minimise total inconvenience**
+(walking distance + unmet preferences).
 
-Vehicles arrive over time and must be assigned to available parking spaces while respecting constraints such as:
+## The core constraint: the system is *online*
 
-* Space availability
-* Vehicle compatibility
-* Electric charging requirements
-* Capacity limits per level
+At time **t** we know only the cars that have already arrived — never the future, and not
+even the current car's parking duration. Every decision is made the instant a car arrives
+and can never be undone.
 
-The goal is to minimize overall user inconvenience, including walking distance, congestion, and inefficient assignments.
+Because several cars often arrive at the **same minute** (this data has 268 such minutes,
+plus one opening minute with 30 simultaneous cars), the real decision at each instant is a
+**min-cost assignment** of *that minute's* cars to the bays free *right now* — no future,
+no durations, no time-interval reasoning. This is the problem all five methods solve.
 
----
+## Notebook — `main.ipynb`
 
-## Problem Scope
+| Part | Author | Content |
+|------|--------|---------|
+| **Part 1** | Yasmine | the five assignment solvers (Greedy, ILP, Branch & Bound, Genetic Algorithm, Simulated Annealing) + design justification, compared on one contended instant |
+| **Part 2** | Houaria | the online day-long simulation across all 10 car parks + comparison and interpretation |
 
-We model:
+Run top to bottom. Figures are written to `viz/`.
 
-* A set of vehicles (arrival time, type, duration)
-* A multi-level parking structure
-* Parking spaces with attributes (size, EV support, location)
-* A distance matrix inside the parking facility
+## Data — `data/` (unchanged)
 
----
+- `vehicles.csv` — 1000 cars: type, arrival/departure (minute of day), user type, EV flag.
+- `parking1.json` … `parking10.json` — 10 car-park layouts (98–486 bays, 1–4 floors), each
+  bay with size, charger flag and distance to exit.
+- `data_prep.ipynb`, `parking layout.pdf`, `IIoT_Smart_Parking_Management.csv` — how the
+  vehicle set was derived from the source Kaggle dataset.
 
-## Dataset
-
-We use the following dataset for parking demand:
-
-https://www.kaggle.com/datasets/datasetengineer/smart-parking-management-dataset
-
-Since it does not include multi-level structures, a synthetic parking layout will be generated.
-
----
-
-## Project Structure
+## Requirements
 
 ```bash
-smart-parking-optimization/
-├── data/            # Raw and processed data
-├── notebooks/       # Exploration and experiments
-├── src/             # Core logic (to be defined)
-├── README.md
-├── requirements.txt
-└── main.py
+pip install -r requirements.txt
 ```
 
+`pulp` is **optional**: it powers the exact ILP method. Without it, every ILP step is
+skipped automatically and the rest of the notebook still runs (Branch & Bound remains as the
+exact reference).
 
----
+## Team
 
-## TEAM
-
-* Nacer Eddine Missouni
-* Yasmine Meriche
-* Houaria Djabir
+Nacer Eddine Missouni · Yasmine Meriche · Houaria Djabir
