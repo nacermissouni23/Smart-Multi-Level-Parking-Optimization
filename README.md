@@ -1,6 +1,6 @@
 # Smart Multi-Level Parking Optimization
 
-Project 4 — *Combinatorial Optimization & Metaheuristics*
+Project 4 - *Combinatorial Optimization & Metaheuristics*
 
 Cars arrive at a multi-level car park through the day and each must be given a bay,
 respecting **size** (a large car needs a large bay), **EV charging** (electric cars prefer a
@@ -19,7 +19,7 @@ plus one opening minute with 30 simultaneous cars), the real decision at each in
 **min-cost assignment** of *that minute's* cars to the bays free *right now* — no future,
 no durations, no time-interval reasoning. This is the problem all five methods solve.
 
-## Notebook — `main.ipynb`
+## Notebook - `main.ipynb`
 
 | Part | Author | Content |
 |------|--------|---------|
@@ -28,7 +28,7 @@ no durations, no time-interval reasoning. This is the problem all five methods s
 
 Run top to bottom. Figures are written to `viz/`.
 
-## Data — `data/` (unchanged)
+## Data - `data/`
 
 - `vehicles.csv` — 1000 cars: type, arrival/departure (minute of day), user type, EV flag.
 - `parking1.json` … `parking10.json` — 10 car-park layouts (98–486 bays, 1–4 floors), each
